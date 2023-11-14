@@ -5,6 +5,7 @@ body {
   background-color: #f4f4f4;
 }
 
+/* "creer" la bande grise */
 header {
   background-color: #333;
   color: #fff;
@@ -12,17 +13,19 @@ header {
   padding: 1em 0;
 }
 
+/* Change la taille de la photo et fais une photo ronde */
 #profile-picture {
   border-radius: 50%;
   max-width: 100px;
   margin-bottom: 10px;
 }
 
+/* taille de la police pour le prénom en haut */
 #name {
   font-size: 1.5em;
-  margin-bottom: 0.5em;
 }
 
+/* fait un rectangle limité avec des ombres */
 section {
   max-width: 800px;
   margin: 20px auto;
@@ -31,6 +34,7 @@ section {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+/* couleur de la police pour tout les h1,h2 */
 h1,
 h2 {
   color: #333;
@@ -41,19 +45,23 @@ h2 {
   padding-bottom: 5px;
 }
 
+/* couleur de la police pour du texte */
 p {
   color: #666;
 }
 
+/* enleve les numeros/point de la liste */
 ul {
   list-style-type: none;
   padding: 0;
 }
 
+/* espace les phrases */
 li {
   margin-bottom: 5px;
 }
 
+/* espace les rectangles */
 .formation,
 .skills,
 .projects,
@@ -68,6 +76,7 @@ footer {
   color: #fff;
 }
 
+/* retressir la photo */
 footer img {
   width: 50px;
   height: 50px;
