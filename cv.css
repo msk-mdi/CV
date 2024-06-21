@@ -14,7 +14,7 @@ header {
 }
 
 /* Change la taille de la photo et fais une photo ronde */
-#profile-picture {
+#pp {
   border-radius: 50%;
   max-width: 100px;
   margin-bottom: 10px;
