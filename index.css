@@ -5,7 +5,7 @@ body {
   background-color: #f4f4f4;
 }
 
-/* "creer" la bande grise */
+/* "creer" la bande grise pour le header*/
 header {
   background-color: #333;
   color: #fff;
@@ -31,7 +31,8 @@ section {
   margin: 20px auto;
   background-color: #fff;
   padding: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
 }
 
 /* couleur de la police pour tout les h1,h2 */
