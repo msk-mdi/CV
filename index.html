@@ -10,7 +10,9 @@
     
     <!-- En-Tête -->
     <header>
-      <img id="pp" src="./assets/photo.JPG" alt="Photo de profil" />
+      <a href="./assets/photo.JPG" target="_blank">
+        <img id="pp" src="./assets/photo.JPG" alt="Photo de profil" />
+      </a>
       <div id="name">Msakni Mehdi</div>
       <p>Curriculum Vitae</p>
     </header>
@@ -36,8 +38,11 @@
     <section>
       <h2>Formation</h2>
       <div class="formation">
-        <strong><p>Ipssi Paris</p></strong>
-        <p>Prépa Informatique et Dev - 1ère Année</p>
+        <strong><p id="ipssi_txt">Ipssi Paris</p></strong>
+        <p>Prépa Bachelor Informatique et Développement - 1ère Année</p>
+        <a id="ipssi_img" href="https://ecole-ipssi.com/" target="_blank">
+          <img src="./assets/ipssi.jpg">
+        </a>
       </div>
     </section>
 
@@ -47,6 +52,7 @@
       <div class="diplome">
         <h3>Baccalauréat Général</h3>
         <p>Académie de Créteil - 2023</p>
+        <img id="academie_creteil_img" src="./assets/academie_creteil.png">
         <h3>Brevet des collèges</h3>
         <p>Académie de Créteil - 2019</p>
       </div>
@@ -57,32 +63,32 @@
       <h2>Compétences</h2>
       <div class="skills">
         <ul>
-          <li><u><strong>Langues:</strong></u>
+          <li><strong>Langues:</strong>
             <p>Français, Anglais</p>
           </li>
           
           <li>
-            <u><strong>CLI:</strong></u>
-            <p>SH, Bash, Zsh, Powershell, CMD</p>
+            <strong>CLI:</strong>
+            <p>SH, Bash, Zsh, PowerShell, CMD</p>
           </li>
           
           <li>
-            <u><strong>Langages de programmation:</strong></u>
+            <strong>Langages de programmation:</strong>
             <p>Python, C, C#, HTML5, CSS3, JavaScript, ReactJS, NodeJS, PHP 8.</p>
           </li>
           
           <li>
-            <u><strong>Outils de développement:</strong></u>
+            <strong>Outils de développement:</strong>
             <p>Git, Vim, OpenSSH, VSCode, Visual Studio, Xcode, Android Studio, VirtualBox, Vmware, Qemu, UTM, Docker, Mistral AI.</p>
           </li>
 
           <li>
-            <u><strong>Outils de reseaux et cybersécurité:</strong></u>
+            <strong>Outils de reseaux et cybersécurité:</strong>
             <p>Nmap, Netcat, Hashcat, John, Crunch, Gobuster, Dirbuster, Nikto, Wireshark, Burpsuite, Hydra, Suite Aircrack-ng, Metasploit, Cisco Packet Tracer.</p>
           </li>
 
           <li>
-            <u><strong>OS:</strong></u>
+            <strong>OS:</strong>
             <p>Linux (Debian based, RHEL based, Arch Linux), MacOS, Windows, Windows Server 2022, FreeBSD (classique et Pfsense)</p>
           </li>
         </ul>
@@ -98,29 +104,30 @@
           Jeu de voiture en 3D fait sur Unity à l'aide de C#, le code et le jeu
           sont disponibles sur mon Github.
         </p>
+        <a class="boutton" href="https://github.com/msk-mdi/UnityProject" target="_blank"> Code source ici </a>
         
         <h3>Développement Front-end</h3>
         <p>
           Développement d'un site web en HTML CSS permettant de télécharger tous les lanceurs de jeux vidéos sur PC
         </p>
-        <a href="https://github.com/msk-mdi/website" target="_blank"> Code source ici </a>
+        <a class="boutton" href="https://github.com/msk-mdi/website" target="_blank"> Code source ici </a>
         <p>
           Création d'un site web pour un restaurant fictif en ReactJS
         </p>
-        <a href="https://github.com/msk-mdi/website-react.git" target="_blank"> Code source ici</a>
+        <a class="boutton" href="https://github.com/msk-mdi/website-react.git" target="_blank"> Code source ici</a>
         
         <h3>Développement Back-end</h3>
         <p>
           Création d'une page d'inscription et de connexion ainsi que d'une gestion des permissions utilisateurs par un ou des admins en PHP en utilisant des fichiers CSV comme base de données
         </p>
-        <a href="https://github.com/msk-mdi/login_page" target="_blank"> Code source ici</a>
+        <a class="boutton" href="https://github.com/msk-mdi/login_page" target="_blank"> Code source ici</a>
         <p>
           Création d'un site web en PHP permettant aux entreprises de créer des quiz pour des utilisateurs
         </p>
         <p>
           Sur ce même site web, l'administrateur pouvait activer et désactiver des comptes, des quiz et pouvait modifier les permissions des utilisateurs sur le site.
         </p>
-        <a href="https://github.com/msk-mdi/Quizzeo" target="_blank"> Code source ici</a>
+        <a class="boutton" href="https://github.com/msk-mdi/Quizzeo" target="_blank"> Code source ici</a>
 
         <h3>Administrateur Réseaux</h3>
         <p>
@@ -165,19 +172,19 @@
     <footer>
 
       <a href="tel:+33780604484">
-        <img id="phone_img" src="./assets/phone.png"/>
+        <img src="./assets/phone.png"/>
       </a>
 
       <a href="mailto:Mehdimskpro@tutanota.com?subject=Information%20complémentaire&body=Contenu%20de%20votre%20demande%20ici">
-        <img id ="mail_img" src="./assets/mail.png"/>
+        <img src="./assets/mail.png"/>
       </a>
       
       <a href="https://www.linkedin.com/in/mehdi-msakni-467439296/" target="_blank">
-        <img id ="linkedin_img" src="./assets/linkedin.png"/>
+        <img src="./assets/linkedin.png"/>
       </a>
 
       <a href="https://github.com/msk-mdi" target="_blank">
-        <img id="github_img" src="./assets/github.png"/>
+        <img src="./assets/github.png"/>
       </a>
 
       <p>Copyright © 2024 Msakni Mehdi | All Right Reserved</p>
