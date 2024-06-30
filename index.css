@@ -5,7 +5,7 @@ body {
   background-color: #f4f4f4;
 }
 
-/* "creer" la bande grise pour le header */
+/* affiche une bande grise pour le header */
 header {
   background-color: #cfcfcf;
   color: #000000;
@@ -36,7 +36,7 @@ header {
   height: auto;
 }
 
-/* fait un rectangle limité avec des ombres */
+/* affiche un rectangle d'une taille limité avec des ombres */
 section {
   max-width: 800px;
   margin: 24px auto;
@@ -96,6 +96,7 @@ li {
   transition: color 0.3s ease;
 }
 
+/* Quand il passe sur le boutton */
 .boutton:hover {
   color: rgb(255, 255, 255);
   background-color: #000000;
@@ -115,4 +116,71 @@ footer img {
   padding: 10px;
   vertical-align: middle;
   line-height: 0px;
+}
+
+/* Responsive 875px */
+@media (max-width: 875px) {
+  section {
+    margin: 20px;
+    padding: 18px;
+  }
+}
+
+/* Responsive 768px */
+@media (max-width: 768px) {
+  header {
+    text-align: center;
+    padding: 1em;
+  }
+
+  #pp {
+    max-width: 80px;
+  }
+
+  section {
+    margin: 16px;
+    padding: 15px;
+  }
+
+  h1, h2 {
+    font-size: 1.2em;
+  }
+
+  p {
+    font-size: 0.9em;
+  }
+
+  .boutton {
+    font-size: 14px;
+    padding: 5px 8px;
+  }
+}
+
+/* Responsive 480px */
+@media (max-width: 480px) {
+  header {
+    padding: 0.5em;
+  }
+
+  #pp {
+    max-width: 60px;
+  }
+
+  section {
+    margin: 8px;
+    padding: 10px;
+  }
+
+  h1, h2 {
+    font-size: 1em;
+  }
+
+  p {
+    font-size: 0.8em;
+  }
+
+  .boutton {
+    font-size: 12px;
+    padding: 4px 6px;
+  }
 }
