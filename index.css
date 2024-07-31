@@ -81,6 +81,11 @@ li {
   margin-bottom: 20px;
 }
 
+/* enleve les numeros/point de la liste uniquement dans la div experience*/
+.experience li {
+  list-style-type: none;
+}
+
 /* Boutton pour afficher le code source */
 .boutton {
   display: inline-block;
